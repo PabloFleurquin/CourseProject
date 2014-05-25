@@ -1,9 +1,9 @@
 # Loading Data
 setwd("~/Desktop/Coursera/DataScience/02GettingCleaningData/CourseProject01")
-'Xtest<-read.table("X_test.txt")
+Xtest<-read.table("X_test.txt")
 Ytest<-read.table("y_test.txt")
 Xtrain<-read.table("X_train.txt")
-Ytrain<-read.table("y_train.txt")'
+Ytrain<-read.table("y_train.txt")
 VarNames0<-as.vector(t(read.table("features.txt")[2]))
 
 # Cleaning Variables names
