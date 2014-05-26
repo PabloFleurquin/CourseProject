@@ -14,6 +14,6 @@
 2. Apply gsub to the vector string read from features.txt. Clean names following the naming conventions (using regular expressions).
 3. Give the different dataframes the appropiate variable names.
 4. Merge the data first by using cbind (same number of rows), followed by rbind (same variables).
-5. Create a datset with the mean for each subject for all the variables in the merged dataset.
+5. Create a datset with the mean for each activity and subject for all the variables in the merged dataset.
 6. Write to file both datasets.
 
